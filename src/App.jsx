@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+const todo = require("./todos");
 import "./App.css";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
   }, [count]);
   return (
     <>
-      {count} {count1}
+      {/* {count} {count1} */}
+      {todo}
     </>
   );
 }
